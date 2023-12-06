@@ -44,3 +44,32 @@ li{
     padding: 10xp;
 
 }
+
+
+.list-items{
+    display: flex;
+}
+
+.list-items .list-item-list{
+    flex:1;
+}
+
+.list-items .list-item-icons{
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+#completed{
+    color: green;
+}
+#edit{
+    color: blue;
+}
+#delete{
+    color: orange;
+}
+
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
